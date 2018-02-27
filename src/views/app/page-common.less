@@ -1,0 +1,94 @@
+// 页面顶部分按钮与筛选框的样式
+.select-col{
+    display: inline-block;
+    width: 100%;
+    text-align:left;
+    .last{ 
+        display: inline-block;
+    }
+    .div{
+        display: inline-block;
+        margin-right:5px;
+        // margin-bottom:10px;
+        .label{
+            display:inline-block;
+            vertical-align: middle;
+            width: 60px;
+            text-align:right;
+            }
+        .select{
+            width:175px;
+            text-align: left;
+        }
+    }
+  }
+// common.less 
+// 模态框通用样式
+.modal-common{
+    .ivu-table{ font-size: 12px !important;}
+    .ivu-table-cell{padding: 0px !important;}
+    .ivu-checkbox-wrapper{margin: 0px !important;}
+    .ivu-modal-content .ivu-modal-body{
+        box-sizing:border-box;
+        padding: 5px 15px;
+    }
+    .ivu-form-item{
+        margin:20px auto;
+    }
+}
+.pull-right {
+  float: right;
+}
+.display-inline-b{
+  display: inline-block;
+}
+.storage-notice-mgmt {
+  .ivu-table-cell{padding: 0px !important;}
+}
+//    表格通用样式
+.table-common {
+	width:99.9%;
+	border: none;
+	text-align: center;
+	border-collapse:collapse; // 边框合并
+	td {
+		border-radius: 0;
+		border: 1px solid #e9eaec;
+		text-align: center;
+	}
+}
+.table-common-top{
+	tr:first-child{
+		td{
+			border: none;
+		}
+	}
+}
+.table-common-bottom{
+	tr:last-child{
+		td{
+			border: none;
+		}
+	}
+}
+.modaltdText {
+	display: block;
+	margin-top: -7.5px;
+}
+
+.modalh1 {
+    font-weight:lighter;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.vertical-center-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ivu-modal{
+        top: 0;
+    }
+}
+

@@ -1,0 +1,50 @@
+
+// 模态框中表格的样式
+.daily-modal {
+    .ivu-card-body{
+        padding:10px;
+    }
+    .daily-table {
+        width: 100%;
+        border-collapse: collapse; // 边框合并
+        border: #ccc;
+        td{
+            height:30px;
+            background: #e9eaec;
+            span{
+                padding-right:10px
+            }
+            input{
+                border: none;
+                border-radius: 0;
+                padding-right: 7px;
+            }
+            .ivu-form-item-label{
+                width: 50% !important;
+                padding:10px 0px;
+            }
+            .ivu-input-wrapper{
+                width: 50%;
+            }
+            .ivu-form-item {
+                width: 100%;
+            }
+            .ivu-form-item-error {
+                border: 1px solid red;
+            }
+            .ivu-form-item-content {
+                padding: 0px;
+                margin: 0px !important;
+                line-height: 30px;
+            }
+        }
+    }
+    .looktable{
+        tr{
+            td:nth-child(2),td:nth-child(4),td:nth-child(6),td:nth-child(8){
+                width:100px;
+                text-align: right;
+            }
+        }
+    }
+}

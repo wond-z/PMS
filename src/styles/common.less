@@ -1,0 +1,434 @@
+.margin-top-6 {
+    margin-top: 6px;
+}
+.margin-top-8 {
+    margin-top: 8px;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.padding-left-6 {
+    padding-left: 6px;
+}
+
+.padding-left-8 {
+    padding-left: 5px;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.height-120px {
+    height: 100px;
+}
+
+.height-200px {
+    height: 200px;
+}
+
+.height-492px {
+    height: 492px;
+}
+
+.height-460px {
+    height: 460px;
+}
+
+.line-gray {
+    height: 0;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.notwrap {
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.padding-left-5 {
+    padding-left: 10px;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+// 覆盖全局样式
+.font-size-18{
+    font-size:18px;
+}
+.zIndex-2000{
+    .ivu-modal-mask,.ivu-modal-wrap{
+         z-index: 2000 !important;
+     }
+}
+.zIndex-1000 {
+     .ivu-modal-wrap{
+         z-index: 1000;
+     }
+}
+.page-span{
+    display: inline-block;
+    width: 15%;
+}
+.color-red{
+    color: red !important;
+}
+.label-50{
+    .ivu-form-item-label{
+        width:70px !important;
+    }
+    .ivu-form-item-content{
+        margin-left: 70px !important;
+    }
+}
+.label-40{
+    .ivu-form-item-label{
+        width:40px !important;
+    }
+    .ivu-form-item-content{
+        margin-left: 40px !important;
+    }
+}
+.width-150{
+    width:150px;
+}
+.pull-right {
+    float: right;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-center{
+    text-align: center !important;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.padding-top-bottom-minish .ivu-card-body {
+    padding: 8px 15px!important;
+}
+
+.dispaly-inline-block{
+    display: inline-block;
+}
+// 页面顶部分按钮与筛选框的样式
+.select-col {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    .div {
+        display: inline-block;
+        margin: 5px 5px 5px 0;
+        .label {
+            display: inline-block;
+            vertical-align: middle;
+            width: 60px;
+            text-align: right;
+        }
+        .select, input {
+            width: 200px!important;
+            text-align: left;
+        }
+        .ivu-btn {
+            margin: 5px 0;
+        }
+    }
+}
+
+// // 模态框垂直居中样式
+// .vertical-center-modal {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     .ivu-modal {
+//         top: 0;
+//     }
+// }
+
+// 表单模态框通用样式
+.modal-common {
+    .ivu-table {
+        font-size: 12px !important;
+    }
+    .ivu-table-cell {
+        padding: 0px !important;
+    }
+    .ivu-checkbox-wrapper {
+        margin: 0px !important;
+    }
+    .ivu-modal-content .ivu-modal-body {
+        box-sizing: border-box;
+        padding: 5px 15px;
+    }
+    .ivu-form-item {
+        margin: 10px auto;
+    }
+}
+
+// 表格模态框通用样式
+.modal-table-form {
+    // 模态框页眉页脚
+    .ivu-modal-footer,
+    .ivu-modal-header,.ivu-modal-body {
+        padding: 10px 16px;
+    } // 模态框顶部筛选框
+    .ivu-card-body {
+        padding: 8px;
+    }
+    .ivu-table {
+        font-size: 12px !important;
+    } // 单元格
+    .ivu-table-cell {
+        padding: 0px !important;
+    } // 多选框
+    .ivu-checkbox-wrapper {
+        margin: 0px !important;
+    }
+    .modal-formItem{
+        .ivu-form-item {
+            margin-bottom: 10px;
+            margin-right:0;
+        }
+        .ivu-card-body{
+            padding:10px 10px 0px 10px;
+        }
+        .ivu-form-item-label{
+            padding:10px 3px;
+        }
+    }
+    .table-common {
+        border: none;
+        text-align: center;
+        border-collapse: collapse; // 边框合并
+        td {
+            text-align: center;
+            background: #F8F8F9;
+            .ivu-input {
+                border: none;
+                border-radius: 0;
+                box-sizing: border-box;
+                text-align: center;
+            }
+            .ivu-form-item {
+                margin: 0px;
+            }
+            .ivu-select-selection {
+                border: none;
+                border-radius: 0;
+                box-sizing: border-box;
+            }
+            .ivu-input-number-focused {
+                box-shadow: none;
+            } 
+            .ivu-form-item-error {
+                border: 1px solid red;
+            }
+        }
+        .leader-td-style{
+            td{
+                padding: 5px;
+            }
+            .ivu-form-item-label{
+                 width: 20% !important;
+                 padding:10px 0px;
+            }
+             .ivu-form-item-content{
+                 width:80% !important;
+                 margin-left:20% !important;
+            }
+            .ivu-select-selected-value{
+                text-align: left;
+                height:32px;
+                line-height: 32px;
+            }
+        }
+    }
+    .table-common-top {
+        tr:first-child {
+            td {
+                border: none;
+                background: #fff !important;
+                text-align: center;
+            }
+            td:first-child {
+                text-align: left;
+            }
+            td:last-child {
+                text-align: right;
+            }
+        }
+    }
+    .table-common-tworow {
+        tr:nth-child(2) {
+            td {
+                border: none;
+                background: #fff !important;
+                text-align: center;
+            }
+            td:first-child {
+                text-align: left;
+            }
+            td:last-child {
+                text-align: right;
+            }
+        }
+    }
+    .table-common-bottom {
+        tr:last-child {
+            td {
+                border: none;
+                background: #fff !important;
+                text-align: center;
+                // height: 35px;
+                // line-height: 35px;
+            }
+            td:first-child {
+                text-align: left;
+            }
+        }
+    }
+    .table-last-tworow {
+        tr:nth-last-child(2) {
+            td {
+                border: none;
+                background: #fff !important; // text-align: center;
+            } 
+        }
+    }
+    .modaltdText {
+        display: block;
+        margin-top: -7.5px;
+    }
+    .modalh1 {
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.table-component-common{
+    .ivu-table-cell {
+        padding: 0px !important;
+    }
+    .ivu-table-body {
+        min-height: 400px;
+    }
+    .ivu-table-tip table {
+        min-height: 400px;
+    } 
+    .ivu-checkbox-wrapper{
+        margin: 0px;
+    }
+}
+.main-table {
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-collapse: collapse; // 边框合并
+    td {
+        background: #F8F8F9;
+        .ivu-input {
+            border: none;
+            border-radius: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .ivu-form-item {
+            margin: 0px;
+        }
+        .ivu-select-selection {
+            border: none;
+            border-radius: 0;
+            box-sizing: border-box;
+        }
+        .ivu-input-number-focused {
+            box-shadow: none;
+        }
+        .ivu-form-item-error {
+            border: 1px solid red;
+        }
+    }
+}
+
+.ivu-select-dropdown-transfer,.ivu-date-picker-transfer {
+    z-index: 1060 !important;
+}
+.ivu-select-item {
+    padding: 7px 7px!important;
+}
+.ivu-select-dropdown::-webkit-scrollbar{
+    width: 0px;
+    opacity: 0;
+    display: none; 
+}
+.ivu-date-picker-transfer {
+    max-height: none !important;
+    width:auto !important;
+}
+.ivu-dropdown-transfer{
+    width:auto !important;
+}
+.ivu-modal-confirm-body {
+    padding-top: 0!important;
+    .ivu-icon {
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    p, div {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    
+}
+
+.table-title{
+    font-size:18px;
+    padding:0px 0 10px;
+    text-align:center !important;
+    border: none;
+}
+.font-size-16{
+    font-size: 16px;
+}  
